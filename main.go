@@ -11,11 +11,13 @@ import (
 var (
 	container = flag.Bool("container", false, "container")
 	image     = flag.Bool("image", false, "image")
-	list      = flag.Bool("list", false, "list")
-	kill      = flag.Bool("kill", false, "kill")
 	execute   = flag.String("execute", "", "execute")
-	filter    = flag.String("f", "", "filter")
-	query     = flag.String("q", "", "query")
+
+	list  = flag.Bool("list", false, "list")
+	kill  = flag.Bool("kill", false, "kill")
+	query = flag.String("q", "", "query")
+
+	filter = flag.String("f", "", "filter")
 )
 
 func init() {
