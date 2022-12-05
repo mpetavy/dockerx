@@ -4,7 +4,7 @@ go 1.19
 
 require (
 	github.com/docker/docker v20.10.21+incompatible
-	github.com/mpetavy/common v1.5.13
+	github.com/mpetavy/common v1.5.14
 	github.com/spyzhov/ajson v0.7.1
 )
 
