@@ -4,7 +4,7 @@ go 1.19
 
 require (
 	github.com/docker/docker v20.10.21+incompatible
-	github.com/mpetavy/common v1.5.16
+	github.com/mpetavy/common v1.5.17
 	github.com/spyzhov/ajson v0.7.1
 )
 
@@ -45,6 +45,7 @@ require (
 	github.com/paulrosania/go-charset v0.0.0-20190326053356-55c9d7a5834c // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/quasoft/memstore v0.0.0-20191010062613-2bce066d2b0b // indirect
+	github.com/robertkrimen/otto v0.2.1 // indirect
 	github.com/sirupsen/logrus v1.7.0 // indirect
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
 	github.com/valyala/fasttemplate v1.2.1 // indirect
@@ -57,7 +58,7 @@ require (
 	golang.org/x/net v0.0.0-20220930213112-107f3e3c3b0b // indirect
 	golang.org/x/oauth2 v0.0.0-20210628180205-a41e5a781914 // indirect
 	golang.org/x/sys v0.1.0 // indirect
-	golang.org/x/text v0.3.7 // indirect
+	golang.org/x/text v0.4.0 // indirect
 	golang.org/x/time v0.0.0-20210723032227-1f47c861a9ac // indirect
 	golang.org/x/tools v0.1.12 // indirect
 	google.golang.org/api v0.51.0 // indirect
@@ -65,6 +66,7 @@ require (
 	google.golang.org/genproto v0.0.0-20210722135532-667f2b7c528f // indirect
 	google.golang.org/grpc v1.39.0 // indirect
 	google.golang.org/protobuf v1.27.1 // indirect
+	gopkg.in/sourcemap.v1 v1.0.5 // indirect
 	gotest.tools/v3 v3.4.0 // indirect
 	software.sslmate.com/src/go-pkcs12 v0.0.0-20210415151418-c5206de65a78 // indirect
 )
