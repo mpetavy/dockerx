@@ -4,7 +4,7 @@ go 1.19
 
 require (
 	github.com/docker/docker v20.10.21+incompatible
-	github.com/mpetavy/common v1.5.20
+	github.com/mpetavy/common v1.5.22
 	github.com/spyzhov/ajson v0.7.1
 )
 
@@ -13,12 +13,16 @@ require (
 	github.com/Microsoft/go-winio v0.6.0 // indirect
 	github.com/beevik/etree v1.1.0 // indirect
 	github.com/creack/goselect v0.1.2 // indirect
+	github.com/dlclark/regexp2 v1.7.0 // indirect
 	github.com/docker/distribution v2.8.1+incompatible // indirect
 	github.com/docker/go-connections v0.4.0 // indirect
 	github.com/docker/go-units v0.5.0 // indirect
+	github.com/dop251/goja v0.0.0-20230119130012-17fd568758fe // indirect
+	github.com/dop251/goja_nodejs v0.0.0-20211022123610-8dd9abb0616d // indirect
 	github.com/fatih/structtag v1.2.0 // indirect
 	github.com/gabriel-vasile/mimetype v1.3.1 // indirect
 	github.com/go-ini/ini v1.62.0 // indirect
+	github.com/go-sourcemap/sourcemap v2.1.3+incompatible // indirect
 	github.com/gogo/protobuf v1.2.1 // indirect
 	github.com/golang-jwt/jwt v3.2.2+incompatible // indirect
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
