@@ -21,7 +21,7 @@ var (
 )
 
 func init() {
-	common.Init(false, "1.0.0", "", "", "2022", "Extended Docker interaction", "mpetavy", fmt.Sprintf("https://github.com/mpetavy/%s", common.Title()), common.APACHE, nil, nil, nil, run, 0)
+	common.Init("1.0.0", "", "", "2022", "Extended Docker interaction", "mpetavy", fmt.Sprintf("https://github.com/mpetavy/%s", common.Title()), common.APACHE, nil, nil, nil, run, 0)
 }
 
 func TrimApostroph(str string) string {
@@ -45,11 +45,20 @@ func run() error {
 
 	switch {
 	case *container:
-		containers(cli)
+		err = containers(cli)
+		if common.Error(err) {
+			return err
+		}
 	case *image:
-		images(cli)
+		err = images(cli)
+		if common.Error(err) {
+			return err
+		}
 	case *execute != "":
-		executeIt(cli)
+		err = executeIt(cli)
+		if common.Error(err) {
+			return err
+		}
 	}
 
 	return nil
