@@ -21,7 +21,7 @@ var (
 )
 
 func init() {
-	common.Init("1.0.0", "", "", "2022", "Extended Docker interaction", "mpetavy", fmt.Sprintf("https://github.com/mpetavy/%s", common.Title()), common.APACHE, nil, nil, nil, run, 0)
+	common.Init("dockerx", "1.0.0", "", "", "2022", "Extended Docker interaction", "mpetavy", fmt.Sprintf("https://github.com/mpetavy/%s", common.Title()), common.APACHE, nil, nil, nil, run, 0)
 }
 
 func TrimApostroph(str string) string {
