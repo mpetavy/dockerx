@@ -4,7 +4,7 @@ go 1.19
 
 require (
 	github.com/docker/docker v20.10.21+incompatible
-	github.com/mpetavy/common v1.5.65
+	github.com/mpetavy/common v1.5.66
 	github.com/spyzhov/ajson v0.7.1
 )
 
@@ -45,6 +45,7 @@ require (
 	github.com/mattn/go-isatty v0.0.16 // indirect
 	github.com/moby/term v0.0.0-20221120202655-abb19827d345 // indirect
 	github.com/morikuni/aec v1.0.0 // indirect
+	github.com/ompluscator/dynamic-struct v1.4.0 // indirect
 	github.com/opencontainers/go-digest v1.0.0 // indirect
 	github.com/opencontainers/image-spec v1.0.2 // indirect
 	github.com/paulrosania/go-charset v0.0.0-20190326053356-55c9d7a5834c // indirect
