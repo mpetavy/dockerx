@@ -1,10 +1,10 @@
 module dockerx
 
-go 1.19
+go 1.20
 
 require (
 	github.com/docker/docker v23.0.6+incompatible
-	github.com/mpetavy/common v1.6.1
+	github.com/mpetavy/common v1.6.2
 	github.com/spyzhov/ajson v0.8.0
 )
 
