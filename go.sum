@@ -162,8 +162,8 @@ github.com/moby/term v0.0.0-20221120202655-abb19827d345 h1:J9c53/kxIH+2nTKBEfZYF
 github.com/moby/term v0.0.0-20221120202655-abb19827d345/go.mod h1:15ce4BGCFxt7I5NQKT+HV0yEDxmf6fSysfEDiVo3zFM=
 github.com/morikuni/aec v1.0.0 h1:nP9CBfwrvYnBRgY6qfDQkygYDmYwOilePFkwzv4dU8A=
 github.com/morikuni/aec v1.0.0/go.mod h1:BbKIizmSmc5MMPqRYbxO4ZU0S0+P200+tUnFx7PXmsc=
-github.com/mpetavy/common v1.6.16 h1:OPa75QgbJBeCL9ZyVm/qYLbPod7AoPrQLoOYohMghVE=
-github.com/mpetavy/common v1.6.16/go.mod h1:ogWerVOACPB6iQ5Ag97jwZpPj+jRwjX3rRwCwrAYrPI=
+github.com/mpetavy/common v1.6.17 h1:Kmf3iU1hOUe2n2UPWL9MH1hZx05rGDN2YHXGdOn8thU=
+github.com/mpetavy/common v1.6.17/go.mod h1:ogWerVOACPB6iQ5Ag97jwZpPj+jRwjX3rRwCwrAYrPI=
 github.com/ompluscator/dynamic-struct v1.4.0 h1:I/Si9LZtItSwiTMe7vosEuIu2TKdOvWbE3R/lokpN4Q=
 github.com/ompluscator/dynamic-struct v1.4.0/go.mod h1:ADQ1+6Ox1D+ntuNwTHyl1NvpAqY2lBXPSPbcO4CJdeA=
 github.com/opencontainers/go-digest v1.0.0 h1:apOUWs51W5PlhuyGyz9FCeeBIOUDA/6nW8Oi/yOhh5U=
