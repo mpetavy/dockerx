@@ -1,8 +1,8 @@
 package main
 
 import (
+	"embed"
 	"flag"
-	"fmt"
 	"github.com/docker/docker/client"
 	"github.com/mpetavy/common"
 	"strings"
@@ -20,8 +20,11 @@ var (
 	filter = flag.String("f", "", "filter")
 )
 
+//go:embed go.mod
+var resources embed.FS
+
 func init() {
-	common.Init("dockerx", "", "", "", "2022", "Extended Docker interaction", "mpetavy", fmt.Sprintf("https://github.com/mpetavy/%s", common.Title()), common.APACHE, nil, nil, nil, run, 0)
+	common.Init("", "", "", "", "Extended Docker interaction", "", "", "", &resources, nil, nil, run, 0)
 }
 
 func TrimApostroph(str string) string {
