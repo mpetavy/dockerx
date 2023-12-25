@@ -1,4 +1,4 @@
-module dockerx
+module github.com/mpetavy/dockerx
 
 go 1.21
 
@@ -6,7 +6,7 @@ toolchain go1.21.1
 
 require (
 	github.com/docker/docker v23.0.6+incompatible
-	github.com/mpetavy/common v1.6.38
+	github.com/mpetavy/common v1.6.41
 	github.com/spyzhov/ajson v0.8.0
 )
 
