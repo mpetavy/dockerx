@@ -6,7 +6,7 @@ toolchain go1.21.1
 
 require (
 	github.com/docker/docker v23.0.6+incompatible
-	github.com/mpetavy/common v1.6.41
+	github.com/mpetavy/common v1.6.42
 	github.com/spyzhov/ajson v0.8.0
 )
 
@@ -28,7 +28,6 @@ require (
 	github.com/gabriel-vasile/mimetype v1.4.2 // indirect
 	github.com/go-ini/ini v1.67.0 // indirect
 	github.com/go-sourcemap/sourcemap v2.1.3+incompatible // indirect
-	github.com/go-sql-driver/mysql v1.7.1 // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/golang-jwt/jwt v3.2.2+incompatible // indirect
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
@@ -52,7 +51,6 @@ require (
 	github.com/mattn/go-isatty v0.0.18 // indirect
 	github.com/moby/term v0.0.0-20221120202655-abb19827d345 // indirect
 	github.com/morikuni/aec v1.0.0 // indirect
-	github.com/ompluscator/dynamic-struct v1.4.0 // indirect
 	github.com/opencontainers/go-digest v1.0.0 // indirect
 	github.com/opencontainers/image-spec v1.0.2 // indirect
 	github.com/paulrosania/go-charset v0.0.0-20190326053356-55c9d7a5834c // indirect
