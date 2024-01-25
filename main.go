@@ -11,7 +11,6 @@ import (
 var (
 	container = flag.Bool("container", false, "container")
 	image     = flag.Bool("image", false, "image")
-	execute   = flag.String("execute", "", "execute")
 
 	list  = flag.Bool("list", false, "list")
 	kill  = flag.Bool("kill", false, "kill")
@@ -54,11 +53,6 @@ func run() error {
 		}
 	case *image:
 		err = images(cli)
-		if common.Error(err) {
-			return err
-		}
-	case *execute != "":
-		err = executeIt(cli)
 		if common.Error(err) {
 			return err
 		}

@@ -29,7 +29,7 @@ func listContainer(cli *client.Client, container types.Container, ba []byte) err
 }
 
 func killContainer(cli *client.Client, container types.Container) error {
-	ctx, cancel := context.WithTimeout(context.Background(), time.Second*5)
+	ctx, cancel := context.WithTimeout(context.Background(), time.Second*3)
 	defer cancel()
 
 	fmt.Printf("%s\n", container.ID)
