@@ -6,7 +6,7 @@ toolchain go1.21.1
 
 require (
 	github.com/docker/docker v23.0.6+incompatible
-	github.com/mpetavy/common v1.8.2
+	github.com/mpetavy/common v1.8.3
 	github.com/spyzhov/ajson v0.8.0
 )
 
@@ -19,6 +19,7 @@ require (
 	github.com/docker/go-units v0.5.0 // indirect
 	github.com/fatih/structtag v1.2.0 // indirect
 	github.com/gabriel-vasile/mimetype v1.4.2 // indirect
+	github.com/go-ini/ini v1.67.0 // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/golang-jwt/jwt v3.2.2+incompatible // indirect
 	github.com/google/go-cmp v0.5.9 // indirect
