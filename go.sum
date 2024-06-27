@@ -65,8 +65,8 @@ github.com/moby/term v0.0.0-20221120202655-abb19827d345 h1:J9c53/kxIH+2nTKBEfZYF
 github.com/moby/term v0.0.0-20221120202655-abb19827d345/go.mod h1:15ce4BGCFxt7I5NQKT+HV0yEDxmf6fSysfEDiVo3zFM=
 github.com/morikuni/aec v1.0.0 h1:nP9CBfwrvYnBRgY6qfDQkygYDmYwOilePFkwzv4dU8A=
 github.com/morikuni/aec v1.0.0/go.mod h1:BbKIizmSmc5MMPqRYbxO4ZU0S0+P200+tUnFx7PXmsc=
-github.com/mpetavy/common v1.8.20 h1:06Y0wzRqlapETQ0vje+qzoXrHzne+ET6AANgEO/IsmM=
-github.com/mpetavy/common v1.8.20/go.mod h1:FMo6ZwY+fK/WIrQq2dDDM1/3JgwHrXxQj+O/TjbZhTs=
+github.com/mpetavy/common v1.8.21 h1:8CmwrsoYvv78Xi27MS4lo7FnW5NBSjyP6FaD9gT377A=
+github.com/mpetavy/common v1.8.21/go.mod h1:FMo6ZwY+fK/WIrQq2dDDM1/3JgwHrXxQj+O/TjbZhTs=
 github.com/opencontainers/go-digest v1.0.0 h1:apOUWs51W5PlhuyGyz9FCeeBIOUDA/6nW8Oi/yOhh5U=
 github.com/opencontainers/go-digest v1.0.0/go.mod h1:0JzlMkj0TRzQZfJkVvzbP0HBR3IKzErnv2BNG4W4MAM=
 github.com/opencontainers/image-spec v1.0.2 h1:9yCKha/T5XdGtO0q9Q9a6T5NUCsTn/DrBg0D7ufOcFM=
