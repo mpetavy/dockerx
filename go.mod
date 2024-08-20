@@ -6,7 +6,7 @@ toolchain go1.21.1
 
 require (
 	github.com/docker/docker v23.0.6+incompatible
-	github.com/mpetavy/common v1.8.60
+	github.com/mpetavy/common v1.8.61
 	github.com/spyzhov/ajson v0.8.0
 )
 
@@ -47,6 +47,7 @@ require (
 	github.com/paulrosania/go-charset v0.0.0-20190326053356-55c9d7a5834c // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/quasoft/memstore v0.0.0-20191010062613-2bce066d2b0b // indirect
+	github.com/saintfish/chardet v0.0.0-20230101081208-5e3ef4b5456d // indirect
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
 	github.com/valyala/fasttemplate v1.2.2 // indirect
 	github.com/wk8/go-ordered-map/v2 v2.1.8 // indirect
