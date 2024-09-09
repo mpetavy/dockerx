@@ -6,7 +6,7 @@ toolchain go1.21.1
 
 require (
 	github.com/docker/docker v23.0.6+incompatible
-	github.com/mpetavy/common v1.8.78
+	github.com/mpetavy/common v1.8.79
 	github.com/spyzhov/ajson v0.8.0
 )
 
